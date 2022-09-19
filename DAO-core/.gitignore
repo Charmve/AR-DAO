@@ -1,0 +1,66 @@
+# Tests related chain files
+tests/data/chaindata/
+tests/data/dapp/
+tests/data/nodekey
+tests/data/history
+tests/data/keystore
+tests/genesis_block.json
+
+# Tests save files and output
+tests/data/saved
+tests/out.log.geth
+
+# Ignore created javascript files
+tests/deploy.js
+tests/deploy_dao_creator.js
+tests/deploy_dao.js
+tests/deploy_offer.js
+tests/deploy_pfoffer.js
+tests/deploy_usn.js
+tests/deploy_dthpool.js
+tests/deposit.js
+tests/depositnofunds.js
+tests/fund.js
+tests/fund_fail.js
+tests/fund_fail2.js
+tests/fuel.js
+tests/fuel_fail.js
+tests/fuel_fail2.js
+tests/fuel_fail_extrabalance.js
+tests/proposal.js
+tests/accounts.js
+tests/rewards.js
+tests/split.js
+tests/singlesplit.js
+tests/colmattack.js
+tests/newcontract.js
+tests/newcontractfail.js
+tests/multisplitrewards.js
+tests/spendall.js
+tests/extrabalance.js
+tests/stealextrabalance.js
+tests/firecontractor.js
+tests/dthpool.js
+tests/fuel_predictive.js
+tests/sampleoffer_dailypayment.js
+tests/sampleoffer_daopayownrewards.js
+tests/sampleoffer_setrewardvars.js
+tests/sampleoffer_changeclient.js
+tests/sampleoffer_gettersvt.js
+tests/curator_halveminquorum_fueling.js
+tests/pfoffer.js
+tests/pfoffer_payment.js
+tests/pfoffer_checkvotestatus_fail.js
+
+# Ignore deployment related file
+deploy/code.js
+deploy/prepare.js
+
+# python metadata in tests
+*.pyc
+
+# git ignore output of the paper generation
+paper/*.aux
+paper/*.log
+paper/*.out
+paper/*.pdf

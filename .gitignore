@@ -1,0 +1,9 @@
+venv
+*.vscode
+*.DS_Store
+.pyc
+ar-cutpaste/node_modules
+ar-cutpaste/__pycache__
+ar-cutpaste/server/*.png
+ar-cutpaste/server/*.jpg
+*.psd

@@ -1,0 +1,16 @@
+[{
+    "name": "attack_debate_secs",
+    "default": 15,
+    "description": "Number of seconds the proposal with the large deposit should be debated",
+    "type": "int"
+}, {
+    "name": "split_debate_secs",
+    "default": 20,
+    "description": "Number of seconds the attacker's split proposal should be debated",
+    "type": "int"
+}, {
+    "name": "attack_deposit",
+    "default": 600,
+    "description": "Amount of ether given as deposit in the attack.",
+    "type": "int"
+}]

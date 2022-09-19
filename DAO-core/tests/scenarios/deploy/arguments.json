@@ -1,0 +1,41 @@
+[{
+    "name": "creation_seconds",
+    "default": 50,
+    "description":"Number of seconds from now when the newly created DAO creation ends",
+    "type":"int"
+}, {
+    "name": "min_tokens_to_create",
+    "default": 40,
+    "description": "Minimum value in tokens for the DAO to create in order to be considered fueled",
+    "type": "int"
+},{
+    "name": "onetime_costs",
+    "default": 5,
+    "description": "The one time costs (in ether) in the offer to the DAO",
+    "type":"int"
+}, {
+    "name": "total_costs",
+    "default": 20,
+    "description": "The total costs (in ether) in the offer to the DAO",
+    "type":"int"
+}, {
+    "name": "offer_payment_period",
+    "default": 20,
+    "description": "Edits the Offer contract to consider a period of X seconds as a day",
+    "type":"int"
+}, {
+    "name": "pfoffer_payout_freeze_period",
+    "default": 20,
+    "description": "Edits the PFOffer contract to consider a period of X seconds as the payout freeze period",
+    "type":"int"
+}, {
+    "name": "pfoffer_vote_status_deadline",
+    "default": 1,
+    "description": "Sets the VoteStatusDeadline of the PFOffer contract",
+    "type":"int"
+},{
+    "name": "proposal_deposit",
+    "default": 20,
+    "description": "The default proposal deposit for every proposal of the DAO",
+    "type":"int"
+}]
