@@ -19,3 +19,7 @@ Then update the IP address in `components/Server.tsx` to point to the IP address
 ```bash
 npm start
 ```
+
+## Something you need
+
+npm start --reset-cache

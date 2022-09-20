@@ -18,13 +18,13 @@ This prototype runs as 3 independent modules:
 
 - **The mobile app**
 
-  - Check out the [/app](/app) folder for instructions on how to deploy the app to your mobile.
+  - Check out the [/app](./app) folder for instructions on how to deploy the app to your mobile.
 
 - **The local server**
 
   - The interface between the mobile app and Photoshop.
   - It finds the position pointed on screen by the camera using [screenpoint](https://github.com/cyrildiagne/screenpoint)
-  - Check out the [/server](/server) folder for instructions on configuring the local server
+  - Check out the [/server](./server) folder for instructions on configuring the local server
 
 - **The object detection / background removal service**
 
@@ -67,11 +67,11 @@ Use this endpoint by launching the local server with `--basnet_service_ip http:/
 
 ### 3 - Configure and run the local server
 
-- Follow the instructions in [/server](/server) to setup & run the local server.
+- Follow the instructions in [/server](./server) to setup & run the local server.
 
 ### 4 - Configure and run the mobile app
 
-- Follow the instructions in [/app](/app) to setup & deploy the mobile app.
+- Follow the instructions in [/app](./app) to setup & deploy the mobile app.
 
 ## Thanks and Acknowledgements
 
