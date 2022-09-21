@@ -62,6 +62,35 @@ AR-DAO的第一个应用程序将是一款结合增强现实的区块链游戏�
 
     https://github.com/google-research/jax3d/tree/main/jax3d/projects/mobilenerf
 
+    ![image](https://user-images.githubusercontent.com/29084184/184312791-2953790a-9a14-4062-a5dd-6fd062de5109.png)
+
+    [**Check it out on web !**](https://storage.googleapis.com/jax3d-public/projects/mobilenerf/mobilenerf_viewer_mac/zdeferred_ff_mac.html?obj=fern)
+
+    ![image](https://user-images.githubusercontent.com/11364490/79932648-f8a1e680-8488-11ea-98fe-c11ec22fc8a1.gif)
+    ![gif](https://user-images.githubusercontent.com/11364490/79932650-f9d31380-8488-11ea-8dad-b70a6a3daa6e.gif)
+    ![image](https://user-images.githubusercontent.com/11364490/80279695-324d4880-873a-11ea-961a-d6350e149ece.gif)
+
+link:
+- https://mobile-nerf.github.io/
+- https://github.com/dunbar12138/DSNeRF
+- https://github.com/kwea123/nerf_pl
+
+### An AR-DAO Application Case（demo）
+
+<h1> <img src="https://user-images.githubusercontent.com/29084184/191428836-c277b17d-e60e-4dd2-8fa9-770aab9e64cb.png" alt="ScanCan" width="26" style="vertical-align:bottom;"/> <a href="https://github.com/ScanCan">ScanCan</a> </h1>
+
+<div align="right">
+<b><i>告别二维码，同样能“扫一扫”！</i></b>
+<!--
+<img src="https://user-images.githubusercontent.com/29084184/191428836-c277b17d-e60e-4dd2-8fa9-770aab9e64cb.png" align="right" alt="ScanCan" width="160"/>
+-->
+</div>
+
+扫一扫，告诉你想知道的全部
+
+一个基于AR-DAO手机AR获取、分享建立价值的AR+DAPP社区应用。通过相机扫描对应于现实生活场景的AR内容，创建对应NFT上链，社区分享形成自然价值的新一代AR-DAPP应用。
+
+<a href="https://github.com/ScanCan/ScanCan"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=346153&amp;theme=light" width="250" height="54"></a>
 
 ### Capture to Earn
 
