@@ -28,9 +28,9 @@ AR-DAO需要一定程度的通过商用来维持DAO组织的运转。这也意�
 AR-DAO的组织架构较为简单，基金会提供最早的代码开发所需要的资金支持，并为早期团队管理应用募集的资金，而对应的Token分配将以悬赏的方式奖励给开发者，并且一定贡献的开发者将进入技术委员会，参与DAO的治理，AR-DAO不阻止第三方使用我们的开源协议进行程序开发。作为社区和用户将通过应用层的交互获得一定的应用经济模型本身的奖励，并且同样可以参与治理并为社区的想法做出贡献。
 
 - DAO Framework
-    
+
 ![Untitled](images/DAO-framework.png)
-    
+
 --> [DAO-core](./DAO-core) @blockchainsllc/DAO
 
 ---
@@ -50,27 +50,26 @@ AR-DAO的第一个应用程序将是一款结合增强现实的区块链游戏�
 ### AR Capture
 
 - First Encrypted AR+DAPP
-    
-    ![Untitled](images/ar-dapp.png)
 
+  ![Untitled](images/ar-dapp.png)
 - ar-cutpaste
-    ![Untitled](images/augmented-reality-ar-cut-paste.jpeg)
-    
-    --> [AR Capture](./ar-cutpaste) @cyrildiagne/ar-cutpaste/
+  ![Untitled](images/augmented-reality-ar-cut-paste.jpeg)
 
+  --> [AR Capture](./ar-cutpaste) @cyrildiagne/ar-cutpaste/
 - Mobile-NeRF
 
-    https://github.com/google-research/jax3d/tree/main/jax3d/projects/mobilenerf
+  --> [mobilenerf](./mobilenerf) @google-research
 
-    ![image](https://user-images.githubusercontent.com/29084184/184312791-2953790a-9a14-4062-a5dd-6fd062de5109.png)
+  ![image](https://user-images.githubusercontent.com/29084184/184312791-2953790a-9a14-4062-a5dd-6fd062de5109.png)
 
-    [**Check it out on web !**](https://storage.googleapis.com/jax3d-public/projects/mobilenerf/mobilenerf_viewer_mac/zdeferred_ff_mac.html?obj=fern)
+  [**Check it out on web !**](https://storage.googleapis.com/jax3d-public/projects/mobilenerf/mobilenerf_viewer_mac/zdeferred_ff_mac.html?obj=fern)
 
-    ![image](https://user-images.githubusercontent.com/11364490/79932648-f8a1e680-8488-11ea-98fe-c11ec22fc8a1.gif)
-    ![gif](https://user-images.githubusercontent.com/11364490/79932650-f9d31380-8488-11ea-8dad-b70a6a3daa6e.gif)
-    ![image](https://user-images.githubusercontent.com/11364490/80279695-324d4880-873a-11ea-961a-d6350e149ece.gif)
+  ![image](https://user-images.githubusercontent.com/11364490/79932648-f8a1e680-8488-11ea-98fe-c11ec22fc8a1.gif)
+  ![gif](https://user-images.githubusercontent.com/11364490/79932650-f9d31380-8488-11ea-8dad-b70a6a3daa6e.gif)
+  ![image](https://user-images.githubusercontent.com/11364490/80279695-324d4880-873a-11ea-961a-d6350e149ece.gif)
 
 link:
+
 - https://mobile-nerf.github.io/
 - https://github.com/dunbar12138/DSNeRF
 - https://github.com/kwea123/nerf_pl
@@ -90,7 +89,7 @@ link:
 
 一个基于AR-DAO手机AR获取、分享建立价值的AR+DAPP社区应用。通过相机扫描对应于现实生活场景的AR内容，创建对应NFT上链，社区分享形成自然价值的新一代AR-DAPP应用。
 
-<a href="https://github.com/ScanCan/ScanCan"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=346153&amp;theme=light" width="250" height="54"></a>
+`<a href="https://github.com/ScanCan/ScanCan"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=346153&amp;theme=light" width="250" height="54">``</a>`
 
 ### Capture to Earn
 
@@ -119,8 +118,11 @@ link:
 - 元宇宙应用层服务平台；
 - 元宇宙乌托邦经济体。
 
-
 # More infos
 
 - Starting a DAO: The Definitive Guide to Creating a web3 Community. https://www.alchemy.com/overviews/the-definitive-guide-to-starting-a-dao
 - DAO是什么,怎么创建一个DAO？https://zhuanlan.zhihu.com/p/451858104
+
+`</br>`
+
+![image](https://user-images.githubusercontent.com/29084184/179506701-73e8fda3-53f7-4ffd-b989-06fd61e29f43.png)
