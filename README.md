@@ -89,7 +89,7 @@ link:
 
 一个基于AR-DAO手机AR获取、分享建立价值的AR+DAPP社区应用。通过相机扫描对应于现实生活场景的AR内容，创建对应NFT上链，社区分享形成自然价值的新一代AR-DAPP应用。
 
-`<a href="https://github.com/ScanCan/ScanCan"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=346153&amp;theme=light" width="250" height="54">``</a>`
+<a href="https://github.com/ScanCan/ScanCan"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=346153&amp;theme=light" width="250" height="54"></a>
 
 ### Capture to Earn
 
@@ -123,6 +123,6 @@ link:
 - Starting a DAO: The Definitive Guide to Creating a web3 Community. https://www.alchemy.com/overviews/the-definitive-guide-to-starting-a-dao
 - DAO是什么,怎么创建一个DAO？https://zhuanlan.zhihu.com/p/451858104
 
-`</br>`
+</br>
 
 ![image](https://user-images.githubusercontent.com/29084184/179506701-73e8fda3-53f7-4ffd-b989-06fd61e29f43.png)
