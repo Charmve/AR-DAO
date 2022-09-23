@@ -1,0 +1,4 @@
+[submodule "basnet-http"]
+        path = BASNet-http
+        url = https://github.com/cyrildiagne/BASNet-http.git
+        branch = master

@@ -54,6 +54,19 @@ pip install -r requirements.txt
 
 - As mentioned above, for the time being, you must deploy the
 BASNet model (Qin & al, CVPR 2019) as an external HTTP service using this [BASNet-HTTP wrapper](https://github.com/cyrildiagne/basnet-http) (requires a CUDA GPU)
+##### QUICK START
+
+ ```bash
+docker run --rm -p 8080:80 docker.io/cyrildiagne/basnet-http
+```
+
+> If you're having `empty response` issues, make sure your docker instance has 6gb of RAM as mentioned [here](https://github.com/cyrildiagne/ar-cutpaste/issues/26#issuecomment-625689672)
+
+<b>Test:</b>
+
+```bash
+curl -F "data=@test.jpg" http://localhost:8080 -o result.png
+```
 
 - You will need the deployed service URL to configure the local server
 

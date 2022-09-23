@@ -66,28 +66,34 @@ def save():
         f.write(data)
 
     # Send to BASNet service.
-    logging.info(' > sending to BASNet...')
+    logging.info(' > sending clips to BASNet...')
     headers = {}
     if args.basnet_service_host is not None:
         headers['Host'] = args.basnet_service_host
     files= {'data': open('cut_received.jpg', 'rb')}
+    logging.info(' > post request to basnet_service_ip' + args.basnet_service_ip + '...')
     res = requests.post(args.basnet_service_ip, headers=headers, files=files )
-    # logging.info(res.status_code)
+    logging.info(res.status_code)
 
     # Save mask locally.
-    logging.info(' > saving results...')
+    logging.info(' > saving cut-mask results...')
     with open('cut_mask.png', 'wb') as f:
         f.write(res.content)
+        # im1 = Image.open(r'cut_received.jpg')
+        # im1.show()
         # shutil.copyfileobj(res.raw, f)
+        f.close()
 
     logging.info(' > opening mask...')
     mask = Image.open('cut_mask.png').convert("L")
+    mask.show()
 
     # Convert string data to PIL Image.
     logging.info(' > compositing final image...')
     ref = Image.open(io.BytesIO(data))
     empty = Image.new("RGBA", ref.size, 0)
     img = Image.composite(ref, empty, mask)
+    img.show()
 
     # TODO: currently hack to manually scale up the images. Ideally this would
     # be done respective to the view distance from the screen.
