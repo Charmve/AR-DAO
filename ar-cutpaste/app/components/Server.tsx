@@ -1,7 +1,7 @@
 import Base64 from "./Base64";
 
-// const URL = "http://192.168.31.36:8080";
-const URL = "http://172.18.28.89:8080";
+const URL = "http://192.168.31.36:8080";
+// const URL = "http://172.18.28.89:8080";
 
 function arrayBufferToBase64(buffer: ArrayBuffer) {
   let binary = "";

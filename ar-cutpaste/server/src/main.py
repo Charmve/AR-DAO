@@ -71,7 +71,7 @@ def save():
     if args.basnet_service_host is not None:
         headers['Host'] = args.basnet_service_host
     files= {'data': open('cut_received.jpg', 'rb')}
-    logging.info(' > post request to basnet_service_ip' + args.basnet_service_ip + '...')
+    logging.info(' > post request to basnet_service_ip ' + args.basnet_service_ip + ' ...')
     res = requests.post(args.basnet_service_ip, headers=headers, files=files )
     logging.info(res.status_code)
 
