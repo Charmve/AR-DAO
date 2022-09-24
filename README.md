@@ -52,10 +52,13 @@ AR-DAO的第一个应用程序将是一款结合增强现实的区块链游戏�
 - First Encrypted AR+DAPP
 
   ![Untitled](images/ar-dapp.png)
+
 - ar-cutpaste
+  
   ![Untitled](images/augmented-reality-ar-cut-paste.jpeg)
 
-  --> [AR Capture](./ar-cutpaste) @cyrildiagne/ar-cutpaste/
+  --> [AR Capture](./ar-cutpaste) @cyrildiagne/ar-cutpaste
+
 - Mobile-NeRF
 
   --> [mobilenerf](./mobilenerf) @google-research
@@ -109,6 +112,20 @@ link:
 
 ---
 
+# ☕ Processing
+
+```mermaid
+gantt
+        dateFormat  YYYY-MM-DD
+        title AR-DAO Development Processing
+        section porting to mobile device
+        architecture design          :done,    des1, 2022-09-18,2022-09-26
+        ar-capture coding            :active,  des2, 2022-09-26, 10d
+        iOS/Android/web achive       :active,  des3, after des2, 7d
+        other application realize    :         des4, after des3, 7d
+        more jobs you want           :pending  des5, after des4,
+```
+
 # 展望
 
 作为一个开源协议，AR-DAO的未来很难被定义，我们也不确定他们最终会走向何方。但AR-DAO在建设初期的使命提供加密行业的增强现实基础设施服务，愿景是建立一个元宇宙增强现实去中心化自治组织。未来AR-DAO可能会成为；
@@ -126,3 +143,9 @@ link:
 </br>
 
 ![image](https://user-images.githubusercontent.com/29084184/179506701-73e8fda3-53f7-4ffd-b989-06fd61e29f43.png)
+
+<br>
+<br>
+<p align="center">Feel free to ask any questions, open a PR if you feel something can be done differently!</p>
+<h2 align="center">🌟Star this repository🌟</h2>
+<p align="center">Created by <a href="https://github.com/Charmve">Charmve</a> & <a href="https://github.com/MaiweiAI">maiwei.ai</a> Community | Deployed on <a href="https://www.kaggle.com/yidazhang07/bridge-cracks-image">Kaggle</a></p>
