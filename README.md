@@ -47,6 +47,15 @@ AR-DAO的第一个应用程序将是一款结合增强现实的区块链游戏�
 
 我们的市场团队将会逐步公布应用开发的计划和市场推广计划。
 
+### Usage
+
+1. start [ar-capture](ar-cutpaste/app), connect moible phone with USB 
+
+2. deploy [basnet-http](ar-cutpaste#quick-start), or start AR Capture local [server](](ar-cutpaste/server))
+
+3. share with friends, wkkkk...
+
+
 ### AR Capture
 
 - First Encrypted AR+DAPP
@@ -134,6 +143,10 @@ gantt
 - 元宇宙算法协议的代码托管仓库；
 - 元宇宙应用层服务平台；
 - 元宇宙乌托邦经济体。
+
+# Contributing
+
+This is still a work in progress. [Contributions](CONTRIBUTING.md) are welcomed!
 
 # More infos
 

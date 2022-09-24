@@ -10,6 +10,10 @@ pip install -r requirements.txt
 
 ## Run
 
+```bash
+sh start_server.sh
+```
+
 The `BASNET_SERVICE_HOST` is optional (only needed if you've deployed the service
 on a platform using an ingress gateway such as Knative / Cloud Run).
 
