@@ -87,28 +87,30 @@ Use this endpoint by launching the local server with `--basnet_service_ip http:/
 ## Result
 
 <table>
-  <td>
-    <tr>
+  <tbody>
+  <tr>
+    <td>
       <img src="server/result/cut_received.jpg"></img>
-    </tr>
-    <tr>
+    </td>
+    <td>
       <img src="server/result/cut_mask.png"></img>
-    </tr>
-    <tr>
-      <img src="server/result/cut_current.png"></img>
-    </tr>
-  </td>
-  <td>
-    <tr>
+    </td>
+    <td>
+      <img src="server/result/cut_current.png" width="343" ></img>
+    </td>
+  </tr>
+  <tr>
+    <td>
       cut_received.jpg
-    </tr>
-    <tr>
+    </td>
+    <td>
       cut_mask.png
-    </tr>
-    <tr>
+    </td>
+    <td>
       cut_current.png
-    </tr>
-  </td>
+    </td>
+  </tr>
+  </tbody>
 </table>
 
 ## Thanks and Acknowledgements
