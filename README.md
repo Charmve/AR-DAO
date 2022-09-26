@@ -88,7 +88,7 @@ link:
 <div align="right">
 <b><i>告别二维码，同样能“扫一扫”！</i></b>
 <!--
-<img src="https://user-images.githubusercontent.com/29084184/191428836-c277b17d-e60e-4dd2-8fa9-770aab9e64cb.png" align="right" alt="ScanCan" width="160"/>
+  <img src="https://user-images.githubusercontent.com/29084184/191428836-c277b17d-e60e-4dd2-8fa9-770aab9e64cb.png" align="right" alt="ScanCan" width="160"/>
 -->
 </div>
 
@@ -96,7 +96,7 @@ link:
 
 一个基于AR-DAO手机AR获取、分享建立价值的AR+DAPP社区应用。通过相机扫描对应于现实生活场景的AR内容，创建对应NFT上链，社区分享形成自然价值的新一代AR-DAPP应用。
 
-`<a href="https://github.com/ScanCan/ScanCan"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=346153&amp;theme=light" width="250" height="54">``</a>`
+<a href="https://github.com/ScanCan/ScanCan"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=346153&amp;theme=light" width="250" height="54"></a>
 
 ### Capture to Earn
 
