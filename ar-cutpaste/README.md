@@ -19,13 +19,11 @@ This prototype runs as 3 independent modules:
 - **The mobile app**
 
   - Check out the [/app](./app) folder for instructions on how to deploy the app to your mobile.
-
 - **The local server**
 
   - The interface between the mobile app and Photoshop.
   - It finds the position pointed on screen by the camera using [screenpoint](https://github.com/cyrildiagne/screenpoint)
   - Check out the [/server](./server) folder for instructions on configuring the local server
-
 - **The object detection / background removal service**
 
   - For now, the salience detection and background removal are delegated to an external service
@@ -36,7 +34,7 @@ This prototype runs as 3 independent modules:
 ### 1 - Configure Photoshop
 
 - Go to "Preferences > Plug-ins", enable "Remote Connection" and set a friendly password that you'll need later.
-- Make sure that your PS document settings match those in ```server/src/ps.py```, otherwise only an empty layer will be pasted.
+- Make sure that your PS document settings match those in ``server/src/ps.py``, otherwise only an empty layer will be pasted.
 - Also make sure that your document has some sort of background. If the background is just blank, SIFT will probably not have enough feature to do a correct match.
 
 <!--
@@ -53,10 +51,11 @@ pip install -r requirements.txt
 #### Option 1: Set up your own model service (requires a CUDA GPU)
 
 - As mentioned above, for the time being, you must deploy the
-BASNet model (Qin & al, CVPR 2019) as an external HTTP service using this [BASNet-HTTP wrapper](https://github.com/cyrildiagne/basnet-http) (requires a CUDA GPU)
+  BASNet model (Qin & al, CVPR 2019) as an external HTTP service using this [BASNet-HTTP wrapper](https://github.com/cyrildiagne/basnet-http) (requires a CUDA GPU)
+
 ##### QUICK START
 
- ```bash
+```bash
 docker run --rm -p 8080:80 docker.io/cyrildiagne/basnet-http
 ```
 
@@ -69,7 +68,6 @@ curl -F "data=@test.jpg" http://localhost:8080 -o result.png
 ```
 
 - You will need the deployed service URL to configure the local server
-
 - Make sure to configure a different port if you're running BASNet on the same computer as the local service
 
 #### Option 2: Use a community provided endpoint
@@ -85,6 +83,33 @@ Use this endpoint by launching the local server with `--basnet_service_ip http:/
 ### 4 - Configure and run the mobile app
 
 - Follow the instructions in [/app](./app) to setup & deploy the mobile app.
+
+## Result
+
+<table>
+  <td>
+    <tr>
+      <img src="server/result/cut_received.jpg"></img>
+    </tr>
+    <tr>
+      <img src="server/result/cut_mask.png"></img>
+    </tr>
+    <tr>
+      <img src="server/result/cut_current.png"></img>
+    </tr>
+  </td>
+  <td>
+    <tr>
+      cut_received.jpg
+    </tr>
+    <tr>
+      cut_mask.png
+    </tr>
+    <tr>
+      cut_current.png
+    </tr>
+  </td>
+</table>
 
 ## Thanks and Acknowledgements
 

@@ -10,6 +10,7 @@ npm install
 ```
 
 Then update the IP address in `components/Server.tsx` to point to the IP address of the computer running the local server:
+
 ```js
 3: const URL = "http://192.168.1.29:8080";
 ```
@@ -22,4 +23,6 @@ npm start
 
 ## Something you need
 
+```bash
 npm start --reset-cache
+```

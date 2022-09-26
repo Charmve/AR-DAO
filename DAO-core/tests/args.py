@@ -14,7 +14,7 @@ def pairwise(iterable):
 
 
 def make_bool(val):
-    if isinstance(val, basestring):
+    if isinstance(val, str):
         if val.lower() in ["false", "0", "no"]:
             return False
         elif val.lower() in ["true", "1", "yes"]:

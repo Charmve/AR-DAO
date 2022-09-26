@@ -175,7 +175,7 @@ class Keccak:
         n_r: number of rounds
         w: word size
         """
-        for i in xrange(n_r):
+        for i in range(n_r):
             A = Keccak.Round(A, Keccak.RC[i] % (1 << w), w)
 
         return A
@@ -260,13 +260,13 @@ class Keccak:
                 self.buffered_data = self.buffered_data[-extra_bits // 4:]
 
             # Absorbing phase
-            for i in xrange((len(P) * 8 // 2) // self.r):
+            for i in range((len(P) * 8 // 2) // self.r):
                 to_convert = P[i * (2 * self.r // 8):(i + 1) * (2 * self.r // 8)] + '00' * (self.c // 8)
                 P_i = _convertStrToTable(to_convert, self.w, self.b)
 
                 # First apply the XOR to the state + block
-                for y in xrange(5):
-                    for x in xrange(5):
+                for y in range(5):
+                    for x in range(5):
                         self.S[x][y] = self.S[x][y] ^ P_i[x][y]
                 # Then apply the block permutation, Keccak-F
                 self.S = Keccak.KeccakF(self.S, self.n_r, self.w)
@@ -316,8 +316,8 @@ class Keccak:
         # First initialize whatever can be done normally
         duplicate = Keccak(c=self.c, r=self.r, n=self.n)
         # Then copy over the state.
-        for i in xrange(5):
-            for j in xrange(5):
+        for i in range(5):
+            for j in range(5):
                 duplicate.S[i][j] = self.S[i][j]
         # and any other stored data
         duplicate.buffered_data = self.buffered_data
@@ -357,7 +357,7 @@ def _fromHexStringToLane(string):
     # Perform the conversion
     temp = ''
     nrBytes = len(string) // 2
-    for i in xrange(nrBytes):
+    for i in range(nrBytes):
         offset = (nrBytes - i - 1) * 2
         temp += string[offset:offset + 2]
     return int(temp, 16)
@@ -370,7 +370,7 @@ def _fromLaneToHexString(lane, w):
     # Perform the conversion
     temp = ''
     nrBytes = len(laneHexBE) // 2
-    for i in xrange(nrBytes):
+    for i in range(nrBytes):
         offset = (nrBytes - i - 1) * 2
         temp += laneHexBE[offset:offset + 2]
     return temp.upper()
@@ -401,8 +401,8 @@ def _convertStrToTable(string, w, b):
               [0, 0, 0, 0, 0]]
 
     bits_per_char = 2 * w // 8
-    for x in xrange(5):
-        for y in xrange(5):
+    for x in range(5):
+        for y in range(5):
             # Each entry will have b/25=w bits.
             offset = (5 * y + x) * bits_per_char
             # Store the data into the associated word.
@@ -422,8 +422,8 @@ def _convertTableToStr(table, w):
 
     # Convert
     output = [''] * 25
-    for x in xrange(5):
-        for y in xrange(5):
+    for x in range(5):
+        for y in range(5):
             output[5 * y + x] = _fromLaneToHexString(table[x][y], w)
     output = ''.join(output).upper()
     return output

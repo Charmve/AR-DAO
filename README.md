@@ -49,25 +49,20 @@ AR-DAO的第一个应用程序将是一款结合增强现实的区块链游戏�
 
 ### Usage
 
-1. start [ar-capture](ar-cutpaste/app), connect moible phone with USB 
-
+1. start [ar-capture](ar-cutpaste/app), connect moible phone with USB
 2. deploy [basnet-http](ar-cutpaste#quick-start), or start AR Capture local [server](](ar-cutpaste/server))
-
 3. share with friends, wkkkk...
-
 
 ### AR Capture
 
 - First Encrypted AR+DAPP
 
   ![Untitled](images/ar-dapp.png)
-
 - ar-cutpaste
-  
+
   ![Untitled](images/augmented-reality-ar-cut-paste.jpeg)
 
   --> [AR Capture](./ar-cutpaste) @cyrildiagne/ar-cutpaste
-
 - Mobile-NeRF
 
   --> [mobilenerf](./mobilenerf) @google-research
@@ -101,7 +96,7 @@ link:
 
 一个基于AR-DAO手机AR获取、分享建立价值的AR+DAPP社区应用。通过相机扫描对应于现实生活场景的AR内容，创建对应NFT上链，社区分享形成自然价值的新一代AR-DAPP应用。
 
-<a href="https://github.com/ScanCan/ScanCan"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=346153&amp;theme=light" width="250" height="54"></a>
+`<a href="https://github.com/ScanCan/ScanCan"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=346153&amp;theme=light" width="250" height="54">``</a>`
 
 ### Capture to Earn
 
@@ -147,6 +142,13 @@ gantt
 # Contributing
 
 This is still a work in progress. [Contributions](CONTRIBUTING.md) are welcomed!
+
+# Acknowledgements
+
+- ClipDrop. https://github.com/cyrildiagne/ar-cutpaste
+- Signal. https://github.com/signalapp/Signal-iOS
+- AirDrop. https://github.com/seemoo-lab/opendrop
+- Qrcp. https://github.com/claudiodangelis/qrcp
 
 # More infos
 

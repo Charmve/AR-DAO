@@ -15,7 +15,7 @@ def constrained_sum_sample_pos(n, total):
     """Return a randomly chosen list of n positive integers summing to total.
     Each such list is equally likely to occur."""
 
-    dividers = sorted(random.sample(xrange(1, total), n - 1))
+    dividers = sorted(random.sample(range(1, total), n - 1))
     return [a - b for a, b in zip(dividers + [total], [0] + dividers)]
 
 
@@ -175,7 +175,7 @@ def arr_str(arr):
     if type(arr) is not list or arr == []:
         print("ERROR: 'arr_str()' expects a non-empty list")
         sys.exit(1)
-    has_strings = isinstance(arr[0], basestring)
+    has_strings = isinstance(arr[0], str)
     return "[ {} ]".format(
         ', '.join(['"{}"'.format(
             str(x).lower()
@@ -207,7 +207,7 @@ def extract_test_dict(name, output):
 
 
 def is_int(v):
-    return isinstance(v, (int, long))
+    return isinstance(v, (int, int))
 
 
 def cmp_floats(a, b):
@@ -230,11 +230,11 @@ def compare_values(got, expect):
             return False
     if isinstance(got, float):
         return cmp_floats(got, expect)
-    elif isinstance(got, basestring) and is_int(expect):
+    elif isinstance(got, str) and is_int(expect):
         return cmp_string_to_int(got, expect)
-    elif isinstance(expect, basestring) and is_int(got):
+    elif isinstance(expect, str) and is_int(got):
         return cmp_string_to_int(expect, got)
-    elif isinstance(expect, basestring) and isinstance(got, float):
+    elif isinstance(expect, str) and isinstance(got, float):
         return cmp_floats(float(expect), got)
     else:
         return got == expect
