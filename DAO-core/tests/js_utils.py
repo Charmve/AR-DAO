@@ -1,8 +1,12 @@
+"""utils for javascript"""
+
 #!/usr/bin/python2
 
 
 def js_common_intro(accounts_num):
-    """Common  functions, variables to add to all js scripts"""
+    """
+    Common  functions, variables to add to all js scripts
+    """
     s = "console.log('unlocking accounts');\n"
     for i in range(0, accounts_num):
         s += "personal.unlockAccount(eth.accounts[{}], '123');\n".format(i)

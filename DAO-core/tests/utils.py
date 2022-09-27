@@ -1,4 +1,7 @@
+"""utils for DAO-core"""
+
 #!/usr/bin/python2
+
 import calendar
 import random
 import os
@@ -8,7 +11,7 @@ import re
 import subprocess
 from sha3 import sha3_256 as sha3
 from datetime import datetime
-from jsutils import js_common_intro
+from js_utils import js_common_intro
 
 
 def constrained_sum_sample_pos(n, total):

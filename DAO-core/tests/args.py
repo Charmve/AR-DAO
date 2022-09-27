@@ -1,4 +1,7 @@
+"""args parse for DAO-core"""
+
 #!/usr/bin/python2
+
 import argparse
 import sys
 import os
