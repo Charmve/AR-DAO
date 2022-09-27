@@ -4,7 +4,7 @@
 set -euo pipefail
 
 TOP_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd -P)"
-source "${TOP_DIR}/scripts/qcraft_base.sh"
+source "${TOP_DIR}/scripts/ar-dao_base.sh"
 
 GOFMT_PATH=
 function check_gofmt_cmd() {
@@ -26,12 +26,12 @@ function check_gofmt_cmd() {
         GOFMT_PATH="$(command -v gofmt)"
       fi
     else
-      # NOTE(Jiaming): This depends on two facts:
-      # 1) Our workspace is named com_qcraft and its workspace dir /qcraft is writable
-      # 2) The symlink created (pointing to the execution_root dir) is bazel-qcraft
+      # NOTE: This depends on two facts:
+      # 1) Our workspace is named com_ar-dao and its workspace dir /ar-dao is writable
+      # 2) The symlink created (pointing to the execution_root dir) is ar-dao
       #    bazel info execution_root
       # Ref to https://docs.bazel.build/versions/main/user-manual.html on execution_root
-      GOFMT_PATH="${TOP_DIR}/bazel-qcraft/external/go_sdk/bin/gofmt"
+      GOFMT_PATH="${TOP_DIR}/ar-dao/external/go_sdk/bin/gofmt"
       [[ -f "${GOFMT_PATH}" ]] || bazel build -c opt @go_sdk//:bin/gofmt
     fi
   fi # Done Inside Docker

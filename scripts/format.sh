@@ -24,7 +24,7 @@ set -euo pipefail
 
 TOP_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd -P)"
 # shellcheck disable=SC1091
-source "${TOP_DIR}/scripts/qcraft_base.sh"
+source "${TOP_DIR}/scripts/ar-dao_base.sh"
 
 GIT_MODE=0
 IS_CI="${IS_CI:-false}"
@@ -109,60 +109,6 @@ function run_format() {
   done
 }
 
-function commit_author_check() {
-  if ! inside_git; then
-    return 0
-  fi
-
-  # NOTE(jiaming): CI_COMMIT_AUTHOR was only available since GitLab 13.11+
-  # Ref: https://docs.gitlab.com/ee/ci/variables/predefined_variables.html
-  local username
-  username="$(git config user.name)"
-  if [[ -z "${username}" ]]; then
-    username="$(git log -1 --format="%an")"
-  fi
-
-  if [[ "${username}" == "qcraft" ]]; then
-    error "Git username ${username} should not be 'qcraft'"
-    return 1
-  fi
-
-  read -r -a author <<< "${username}"
-  if [[ "${#author[@]}" != 2 ]]; then
-    warning "Git username should conform to the form of [Bajie Zhu], got: [${author[*]}]"
-  else
-    local first last
-    first="${author[0]}"
-    last="${author[1]}"
-    if [[ "${first}" != "${first^}" || "${last}" != "${last^}" ]]; then
-      warning "Git username should be written as [${first^} ${last^}], got [${author[*]}]"
-    fi
-  fi
-  return 0
-}
-
-function commit_author_email_check() {
-  if ! inside_git; then
-    return 0
-  fi
-
-  # NOTE(jiaming): CI_COMMIT_AUTHOR was only available since GitLab 13.11+
-  # Ref: https://docs.gitlab.com/ee/ci/variables/predefined_variables.html
-  local email
-  email="$(git config user.email)"
-  if [[ -z "${email}" ]]; then
-    email="$(git log -1 --format="%ae")"
-  fi
-
-  # https://www.delftstack.com/howto/linux/regex-match-in-bash/#regex-match-email-in-bash
-  if [[ ! "${email}" =~ ^[a-zA-Z0-9._%+-]+@qcraft\.ai$ ]]; then
-    error "Email address should conform to the form of [bajie@qcraft.ai], but got: [${email[*]}]"
-    return 1
-  fi
-
-  return 0
-}
-
 function main() {
   if [ "$#" -eq 0 ]; then
     print_usage
@@ -237,21 +183,8 @@ function main() {
   fi
 
   if [[ "${GIT_MODE}" -eq 1 ]]; then
-    if commit_author_check; then
-      ok "Congrats, commit author check pass"
-    else
-      error "Oops, commit author check failed"
-      return 1
-    fi
 
-    if commit_author_email_check; then
-      ok "Congrats, commit author_email check pass"
-    else
-      error "Oops, commit author_email check failed"
-      return 1
-    fi
-
-    # Note(jiaming):
+    # Note:
     # 1) Exclude deleted files, Ref:
     #    https://stackoverflow.com/questions/6894322/how-to-make-git-diff-and-git-log-ignore-new-and-deleted-files
     # 2) git-clang-format Ref:

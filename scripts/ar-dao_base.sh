@@ -9,7 +9,7 @@ export WHITE='\033[34m'
 export YELLOW='\033[33m'
 export NO_COLOR='\033[0m'
 
-# Note(jiaming): Readonly.
+# Note: Readonly.
 # Not using the `readonly` keyword here as this file may be sourced multiple times
 AVAILABLE_OFFICES=(
   bayarea
@@ -267,7 +267,6 @@ function validate_office() {
 }
 
 function determine_arm64_model() {
-  # https://qcraft.atlassian.net/wiki/spaces/~603857569/pages/1689845769/NV+machines
   local arch
   arch="$(uname -m)"
   if [[ "${arch}" == "x86_64" ]]; then

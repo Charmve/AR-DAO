@@ -21,13 +21,6 @@ IncludeCategories:
   # Test libs
   - Regex:       '"(gtest|gmock|third_party)/'
     Priority:    6
-  # QCraft libs
-  - Regex:       '^"onboard/'
-    Priority:    7
-  - Regex:       '^"offboard/'
-    Priority:    8
-  - Regex:       '^"(cyber_modules|experimental)/'
-    Priority:    9
   # The rest
   - Regex:       '.*'
     Priority:    5

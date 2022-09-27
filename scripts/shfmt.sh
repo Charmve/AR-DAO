@@ -4,7 +4,7 @@
 set -eu
 
 TOP_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd -P)"
-source ${TOP_DIR}/scripts/qcraft_base.sh
+source ${TOP_DIR}/scripts/ar-dao_base.sh
 
 SHELL_FORMAT_CMD="shfmt"
 

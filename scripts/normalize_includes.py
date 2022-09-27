@@ -116,7 +116,7 @@ def normalize_header_includes(fentry, dry=False, strip=False):
             fout.writelines(lines)
 
 
-# TODO(Jiaming): maybe a multi-threaded version
+# TODO: maybe a multi-threaded version
 def main(files=None, dirs=None, dry=False, strip=False):
     if files:
         for ent in files:

@@ -5,7 +5,7 @@
 set -eu
 
 TOP_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd -P)"
-source "${TOP_DIR}/scripts/qcraft_base.sh"
+source "${TOP_DIR}/scripts/ar-dao_base.sh"
 
 SKIP_STRING_NORMALIZATION=false
 

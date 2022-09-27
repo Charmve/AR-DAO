@@ -9,7 +9,7 @@
 # without having users of the tests download external packages using pip
 
 # The Keccak sponge function was designed by Guido Bertoni, Joan Daemen,
-# Michaël Peeters and Gilles Van Assche. For more information, feedback or
+# Michael Peeters and Gilles Van Assche. For more information, feedback or
 # questions, please refer to their website: http://keccak.noekeon.org/
 #
 # Based on the implementation by Renaud Bauvin,

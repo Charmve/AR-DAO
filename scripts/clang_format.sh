@@ -5,7 +5,7 @@ set -eu
 #       clang_format.sh <path/to/src/dir/or/files>
 
 TOP_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd -P)"
-source "${TOP_DIR}/scripts/qcraft_base.sh"
+source "${TOP_DIR}/scripts/ar-dao_base.sh"
 
 function check_clang_format() {
   if [[ -z "$(command -v clang-format)" ]]; then
