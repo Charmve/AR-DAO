@@ -1,3 +1,9 @@
+[![Python Versions](https://img.shields.io/pypi/pyversions/pyqlib.svg?logo=python&logoColor=white)](https://pypi.org/project/pyqlib/#files)
+![Platform](https://img.shields.io/badge/platform-android%20%7C%20ios%20%7C%20web-lightgrey)
+[![Github Actions Test Status](https://github.com/microsoft/qlib/workflows/Test/badge.svg?branch=main)](https://github.com/microsoft/qlib/actions)
+[![Documentation Status](https://readthedocs.org/projects/qlib/badge/?version=latest)](https://qlib.readthedocs.io/en/latest/?badge=latest)
+[![License](https://img.shields.io/pypi/l/pyqlib)](LICENSE)
+
 # AR-DAO Whitepaper
 
 ## Introduction
@@ -141,7 +147,18 @@ gantt
 
 # Contributing
 
+We appreciate all contributions and thank all the contributors!
+
+This project welcomes contributions and suggestions. 
+
 This is still a work in progress. [Contributions](CONTRIBUTING.md) are welcomed!
+
+<a href="https://github.com/Charmve/AR-DAO/graphs/contributors"><img src="https://contrib.rocks/image?repo=Charmve/AR-DAO" /></a>
+
+
+## Guidance
+
+Pull a request or/and issues. 
 
 # Acknowledgements
 
