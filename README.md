@@ -1,8 +1,12 @@
+<img align="left" alt="ManDAO" src="ar-cutpaste/app/assets/icon.png" width="120" height="100%" title="ManDAO">
+
 [![Python Versions](https://img.shields.io/pypi/pyversions/pyqlib.svg?logo=python&logoColor=white)](https://pypi.org/project/pyqlib/#files)
 ![Platform](https://img.shields.io/badge/platform-android%20%7C%20ios%20%7C%20web-lightgrey)
 [![Github Actions Test Status](https://github.com/microsoft/qlib/workflows/Test/badge.svg?branch=main)](https://github.com/microsoft/qlib/actions)
 [![Documentation Status](https://readthedocs.org/projects/qlib/badge/?version=latest)](https://qlib.readthedocs.io/en/latest/?badge=latest)
 [![License](https://img.shields.io/pypi/l/pyqlib)](LICENSE)
+
+<img align="right" alt="ManDAO" src="ar-cutpaste/app/assets/badge.png" width="360" height="100%" title="ManDAO">
 
 # AR-DAO Whitepaper
 
@@ -145,20 +149,31 @@ gantt
 - 元宇宙应用层服务平台；
 - 元宇宙乌托邦经济体。
 
+# Community
+
+- We have a discord server! [![Discord](https://img.shields.io/discord/744385009028431943.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/9BBt5BndMx) This should be your first stop to talk with other Coding friends. Why don't you introduce yourself right now? [Join the online channel in AR-DAO Discord](https://discord.gg/9BBt5BndMx)
+
+<img align="right" alt="ManDAO" src="https://user-images.githubusercontent.com/29084184/193869235-4b882df0-09f9-47a6-b405-c361f97b0360.png" width="360" height="100%" title="ManDAO">
+
+- You can also interact through [GitHub issues](https://github.com/Charmve/AR-DAO/issues). If there is any problem, or a change needs to be made to the repo, this is the place to start the conversation. Read more [here](CONTRIBUTING.md).
+- Subscribe to our [Offical Account with WeChat](https://github.com/Charmve/PaperWeeklyAI/blob/master/MaiweiAI-com.png?raw=true).
+
+<p align="left">
+  <a href="https://github.com/Charmve"><img src="https://img.shields.io/badge/GitHub-@Charmve-000000.svg?logo=GitHub" alt="GitHub" target="_blank"></a>
+  <a href="https://imgconvert.csdnimg.cn/aHR0cHM6Ly9tbWJpei5xcGljLmNuL21tYml6X3BuZy9aTmRoV05pYjNJUkIzZk5ldWVGZEQ4YnZ4cXlzbXRtRktUTGdFSXZOMUdnTHhDNXV0Y1VBZVJ0T0lJa0hTZTVnVGowamVtZUVOQTJJMHhiU0xjQ3VrVVEvNjQw?x-oss-process=image/format,png" target="_blank" ><img src="https://img.shields.io/badge/公众号-@迈微AI研习社-000000.svg?style=flat-square&amp;logo=WeChat" alt="微信公众号"/></a>
+  <a href="https://www.zhihu.com/people/MaiweiE-com" target="_blank" ><img src="https://img.shields.io/badge/%E7%9F%A5%E4%B9%8E-@Charmve-000000.svg?style=flat-square&amp;logo=Zhihu" alt="知乎"/></a>
+  <a href="https://space.bilibili.com/62079686" target="_blank"><img src="https://img.shields.io/badge/B站-@Charmve-000000.svg?style=flat-square&amp;logo=Bilibili" alt="B站"/></a>
+  <a href="https://blog.csdn.net/Charmve" target="_blank"><img src="https://img.shields.io/badge/CSDN-@Charmve-000000.svg?style=flat-square&amp;logo=CSDN" alt="CSDN"/></a>
+</p>
+
 # Contributing
 
 We appreciate all contributions and thank all the contributors!
 
-This project welcomes contributions and suggestions. 
-
-This is still a work in progress. [Contributions](CONTRIBUTING.md) are welcomed!
+This is still a work in progress. [Contributions](CONTRIBUTING.md) are welcomed! Pull a request or/and issues. 
 
 <a href="https://github.com/Charmve/AR-DAO/graphs/contributors"><img src="https://contrib.rocks/image?repo=Charmve/AR-DAO" /></a>
 
-
-## Guidance
-
-Pull a request or/and issues. 
 
 # Acknowledgements
 
