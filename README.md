@@ -151,7 +151,7 @@ gantt
 
 # Community
 
-- We have a discord server! [![Discord](https://img.shields.io/discord/744385009028431943.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/9BBt5BndMx) This should be your first stop to talk with other Coding friends. Why don't you introduce yourself right now? [Join the online channel in AR-DAO Discord](https://discord.gg/9BBt5BndMx)
+- We have a discord server! [![Discord](https://img.shields.io/discord/744385009028431943.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/yUndbSHPd9) This should be your first stop to talk with other  friends. Why don't you introduce yourself right now? [Join the online channel in AR-DAO Discord](https://discord.gg/9BBt5BndMx)
 
 <img align="right" alt="ManDAO" src="https://user-images.githubusercontent.com/29084184/193869235-4b882df0-09f9-47a6-b405-c361f97b0360.png" width="360" height="100%" title="ManDAO">
 
@@ -170,7 +170,7 @@ gantt
 
 We appreciate all contributions and thank all the contributors!
 
-This is still a work in progress. [Contributions](CONTRIBUTING.md) are welcomed! Pull a request or/and issues. 
+This is still a work in progress. [Contributions](CONTRIBUTING.md) are welcomed! Pull a request or/and issue. 
 
 <a href="https://github.com/Charmve/AR-DAO/graphs/contributors"><img src="https://contrib.rocks/image?repo=Charmve/AR-DAO" /></a>
 
