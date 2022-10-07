@@ -1,10 +1,10 @@
 <img align="left" alt="ManDAO" src="ar-cutpaste/app/assets/icon.png" width="120" height="100%" title="ManDAO">
 
 [![Python Versions](https://img.shields.io/pypi/pyversions/pyqlib.svg?logo=python&logoColor=white)](https://pypi.org/project/pyqlib/#files)
-![Platform](https://img.shields.io/badge/platform-android%20%7C%20ios%20%7C%20web-lightgrey)
+![Platform](https://img.shields.io/badge/💻%20platform-android%20%7C%20ios%20%7C%20web-lightblue)
 [![Github Actions Test Status](https://github.com/microsoft/qlib/workflows/Test/badge.svg?branch=main)](https://github.com/microsoft/qlib/actions)
-[![Documentation Status](https://readthedocs.org/projects/qlib/badge/?version=latest)](https://qlib.readthedocs.io/en/latest/?badge=latest)
-[![License](https://img.shields.io/pypi/l/pyqlib)](LICENSE)
+[![Documentation Status](https://readthedocs.org/projects/qlib/badge/?version=latest&logo=readthedocs)](https://github.com/Charmve/AR-DAO/wiki/)
+[![License](https://img.shields.io/badge/License-GPL%202.0-green?logo=creativecommons)](LICENSE)
 
 <img align="right" alt="ManDAO" src="ar-cutpaste/app/assets/badge.png" width="360" height="100%" title="ManDAO">
 
@@ -151,7 +151,7 @@ gantt
 
 # Community
 
-- We have a discord server! [![Discord](https://img.shields.io/discord/744385009028431943.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/9BBt5BndMx) This should be your first stop to talk with other Coding friends. Why don't you introduce yourself right now? [Join the online channel in AR-DAO Discord](https://discord.gg/9BBt5BndMx)
+- We have a discord server! [![Discord](https://img.shields.io/discord/744385009028431943.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/yUndbSHPd9) This should be your first stop to talk with other  friends. Why don't you introduce yourself right now? [Join the online channel in AR-DAO Discord](https://discord.gg/9BBt5BndMx)
 
 <img align="right" alt="ManDAO" src="https://user-images.githubusercontent.com/29084184/193869235-4b882df0-09f9-47a6-b405-c361f97b0360.png" width="360" height="100%" title="ManDAO">
 
@@ -170,7 +170,7 @@ gantt
 
 We appreciate all contributions and thank all the contributors!
 
-This is still a work in progress. [Contributions](CONTRIBUTING.md) are welcomed! Pull a request or/and issues. 
+This is still a work in progress. [Contributions](CONTRIBUTING.md) are welcomed! Pull a request or/and issue. 
 
 <a href="https://github.com/Charmve/AR-DAO/graphs/contributors"><img src="https://contrib.rocks/image?repo=Charmve/AR-DAO" /></a>
 

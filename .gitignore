@@ -4,6 +4,7 @@ venv
 .pyc
 ar-cutpaste/node_modules
 ar-cutpaste/__pycache__
+ar-cutpaste/app/assets/img_drafts.pptx
 ar-cutpaste/server/*.png
 ar-cutpaste/server/*.jpg
 *.psd

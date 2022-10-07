@@ -1,10 +1,8 @@
 ---
 name: "\U0001F41B Bug Report"
-about: Submit a bug report to help us improve Qlib
+about: Submit a bug report to help us improve AR-DAO
 labels: bug
-
 ---
-
 ## 🐛 Bug Description
 
 <!-- A clear and concise description of what the bug is. -->
@@ -12,11 +10,6 @@ labels: bug
 ## To Reproduce
 
 Steps to reproduce the behavior:
-
-1.
-1.
-1.
-
 
 ## Expected Behavior
 
@@ -31,10 +24,10 @@ Steps to reproduce the behavior:
 **Note**: User could run `cd scripts && python collect_info.py all` under project directory to get system information
 and paste them here directly.
 
- - Qlib version:
- - Python version:
- - OS (`Windows`, `Linux`, `MacOS`):
- - Commit number (optional, please provide it if you are using the dev version):
+- AR-DAO version:
+- Python version:
+- OS (`Windows`, `Linux`, `MacOS`):
+- Commit number (optional, please provide it if you are using the dev version):
 
 ## Additional Notes
 

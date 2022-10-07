@@ -1,11 +1,10 @@
 ---
 name: "\U0001F31FFeature Request"
-about: Request for a new Qlib feature
+about: Request for a new AR-DAO feature
 labels: enhancement
-
 ---
-
 ## 🌟 Feature Description
+
 <!-- A clear and concise description of the feature proposal -->
 
 ## Motivation
