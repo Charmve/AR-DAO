@@ -6,7 +6,7 @@
 [![Documentation Status](https://readthedocs.org/projects/qlib/badge/?version=latest&logo=readthedocs)](https://github.com/Charmve/AR-DAO/wiki/)
 [![License](https://img.shields.io/badge/License-GPL%202.0-green?logo=creativecommons)](LICENSE)
 
-<img align="right" alt="ManDAO" src="ar-cutpaste/app/assets/badge.png" width="360" height="100%" title="ManDAO">
+<a href="https://github.com/Charmve/AR-DAO/wiki" target="_blank"><img align="right" alt="ManDAO" src="ar-cutpaste/app/assets/badge.png" width="360" height="100%" title="ManDAO"></a>
 
 # AR-DAO Whitepaper
 
@@ -108,6 +108,35 @@ link:
 
 <a href="https://github.com/ScanCan/ScanCan"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=346153&amp;theme=light" width="250" height="54"></a>
 
+## demo
+
+<table>
+  <tbody>
+  <tr>
+    <td>
+      <img src="images/nft_iO7FOL_1647087619103396.png" width="343" ></img>
+    </td>
+    <td>
+      <img src="images/augmented-reality-splash.jpeg" width="343" ></img>
+    </td>
+    <td>
+      <img src="images/nft_R2QbQT_1647088122779490.png" width="343" ></img>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      Mcat #202_Mongyudowondo
+    </td>
+    <td>
+      augmented-reality-ar-cut-paste
+    </td>
+    <td>
+      Mcat #602_Mongyudowondo
+    </td>
+  </tr>
+  </tbody>
+</table>
+
 ### Capture to Earn
 
 与现实互动的游戏或许具备可玩性，并且极有可能成为一种时尚，户外爱好者们可以选择行动起来去获得自己的收藏品。我们认为奖励这种行为是构建AR-DAO Application的基础。而AR-DAO最初的算法是提供分析后的加密数据包给到智能合约，并且分析和深度学习环境中的数据，而现实与游戏的数据契合，一定程度上是玩家对于画面想象力的共识，这种共识会提高未来AR-DAO Application推出更加符合玩家体验的收藏品。
@@ -184,7 +213,9 @@ This is still a work in progress. [Contributions](CONTRIBUTING.md) are welcomed!
 
 # More infos
 
+- Ethereum. Decentralized autonomous organizations (DAOs). https://ethereum.org/en/dao/
 - Starting a DAO: The Definitive Guide to Creating a web3 Community. https://www.alchemy.com/overviews/the-definitive-guide-to-starting-a-dao
+- 浅谈 Web3.0：动手做一个去中心化 APP.  腾讯技术工程. https://zhuanlan.zhihu.com/p/557365557
 - DAO是什么,怎么创建一个DAO？https://zhuanlan.zhihu.com/p/451858104
 
 </br>
