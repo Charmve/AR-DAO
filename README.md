@@ -197,12 +197,15 @@ gantt
 
 # Contributing
 
-We appreciate all contributions and thank all the contributors!
+We appreciate all contributions and thank all the contributors! Join AR-DAO team! 
 
-This is still a work in progress. [Contributions](CONTRIBUTING.md) are welcomed! Pull a request or/and issue. 
+This is still a work in progress. [Contributions](CONTRIBUTING.md) are welcomed! Pull a request or/and issue.
 
 <a href="https://github.com/Charmve/AR-DAO/graphs/contributors"><img src="https://contrib.rocks/image?repo=Charmve/AR-DAO" /></a>
 
+<p align="center">
+  <img src="https://repobeats.axiom.co/api/embed/c6bfbc71c796ca3924b619f599c8c37a4b5afa71.svg" title="Repobeats analytics image">
+</p>
 
 # Acknowledgements
 
