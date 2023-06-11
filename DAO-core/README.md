@@ -21,10 +21,6 @@ The future remains a work in progress. Our vision exists in a world where laws v
 **If you create a DAO it will be your DAO, and you will be responsible for its operation.**
 
 
-
-
-
-
 ## Overview
 
 Our Standard DAO Framework allows people to create Decentralized Autonomous Organizations (DAOs) governed by the code in this repository written immutably to the blockchain.
@@ -34,8 +30,6 @@ We are making the Standard DAO Framework we developed free and open source, so i
 This DAO model is open source under the LGPL, so it can be reused by anyone wishing to put together a transparent organization where governance and decision making system are immutably programmed in the Blockchain.
 
 Note: Although the word "contract" is used in the DAO’s framework code, the term is a programming convention and is not being used as a legal term of art. The term is a programming convention, not a representation that the code is in and of itself a legally binding and enforceable contract. If you have questions about legal enforceability, consult with legal counsel.
-
-
 
 
 
