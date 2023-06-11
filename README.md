@@ -14,6 +14,12 @@
 
 AR-DAO一个让用户通过增强现实（AR）铸造NFT并参与不同游戏的去中心化自治组织（DAO）。AR-DAO开源了视觉识别算法的代码框架并应用于各类增强现实场景。通过向智能合约传输加密后的（不可篡改性）场景数据，通过伪随机的生成NFT。应用层可以为这些NFT定义不同的数值属性，从而让链游程序具备丰富的可玩性。我们将基于我们的开源代码实现首个应用层。
 
+<div align="center">
+  *** 不建议 fork 项目，本项目会持续更新，只 fork 看不到更新，建议 Star ⭐️ ~ ***
+  
+  <i>喜欢这个项目吗？请考虑 ❤️赞助本项目 以帮助改进！</i>
+</div>
+
 ## Design Principal
 
 AR-DAO的核心定位是硬件通信层的协议，它兼容区块链的EVM（Ethereum Virtual Machine）而可被智能合约运行在EVM兼容的区块链上来确保数据上的不可篡改。AR-DAO可以通过DAO组织化的管理来不断提升其性能和应用范围的升级，这意味着它需要开源，并且在算法优化、识别精度、接口丰富上不断获得来自不同开发者们的贡献。AR-DAO允许应用层的开发者们将其商用，我们的初版代码将开放 GPL2.0 级别开源。AR-DAO会采用深度学习，从而适应更多潜在的应用场景。
@@ -145,6 +151,9 @@ link:
 
 ---
 
+![image](https://github.com/Charmve/AR-DAO/assets/29084184/e974f320-cd6f-464a-9841-4039edcdfddf)
+
+
 ## AR-DAO Open Source
 
 ### Architecture
@@ -197,12 +206,15 @@ gantt
 
 # Contributing
 
-We appreciate all contributions and thank all the contributors!
+We appreciate all contributions and thank all the contributors! Join AR-DAO team! 
 
-This is still a work in progress. [Contributions](CONTRIBUTING.md) are welcomed! Pull a request or/and issue. 
+This is still a work in progress. [Contributions](CONTRIBUTING.md) are welcomed! Pull a request or/and issue.
 
 <a href="https://github.com/Charmve/AR-DAO/graphs/contributors"><img src="https://contrib.rocks/image?repo=Charmve/AR-DAO" /></a>
 
+<p align="center">
+  <img src="https://repobeats.axiom.co/api/embed/c6bfbc71c796ca3924b619f599c8c37a4b5afa71.svg" title="Repobeats analytics image">
+</p>
 
 # Acknowledgements
 
