@@ -1,3 +1,5 @@
+
+
 <img align="left" alt="ManDAO" src="ar-cutpaste/app/assets/icon.png" width="120" height="100%" title="ManDAO">
 
 [![Python Versions](https://img.shields.io/pypi/pyversions/pyqlib.svg?logo=python&logoColor=white)](https://pypi.org/project/pyqlib/#files)
@@ -12,10 +14,12 @@
 
 ## Introduction
 
+> AR-DAO is a decentralized autonomous organization (DAO) that allows users to mint NFTs through augmented reality (AR) and participate in various games.
+
 AR-DAO一个让用户通过增强现实（AR）铸造NFT并参与不同游戏的去中心化自治组织（DAO）。AR-DAO开源了视觉识别算法的代码框架并应用于各类增强现实场景。通过向智能合约传输加密后的（不可篡改性）场景数据，通过伪随机的生成NFT。应用层可以为这些NFT定义不同的数值属性，从而让链游程序具备丰富的可玩性。我们将基于我们的开源代码实现首个应用层。
 
 <div align="center">
-  *** 不建议 fork 项目，本项目会持续更新，只 fork 看不到更新，建议 Star ⭐️ ~ ***
+  <b><i>不建议 fork 项目，本项目会持续更新，只 fork 看不到更新，建议 Star ⭐️ ~ </b></i>
   
   <i>喜欢这个项目吗？请考虑 ❤️赞助本项目 以帮助改进！</i>
 </div>
