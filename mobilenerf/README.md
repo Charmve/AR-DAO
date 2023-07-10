@@ -1,5 +1,8 @@
 # MobileNeRF
 
+![image](https://github.com/Charmve/AR-DAO/assets/29084184/4e32c6e3-eb28-4d57-a97e-ffdeb3e75518)
+
+
 This repository contains the source code for the paper MobileNeRF: Exploiting the Polygon Rasterization Pipeline for Eﬀicient Neural Field Rendering on Mobile Architectures.
 
 This code is created by [Zhiqin Chen](https://czq142857.github.io/) when he was a student researcher at Google.
